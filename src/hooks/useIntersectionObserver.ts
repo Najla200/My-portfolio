@@ -12,7 +12,9 @@ export const useIntersectionObserver = (
 
     const observer = new IntersectionObserver(
       ([entry]) => {
-        setIsVisible(entry.isIntersecting);
+        if (entry.isIntersecting) {
+          setIsVisible(true); // once visible, never reset to false
+        }
       },
       { threshold }
     );
