@@ -4,7 +4,7 @@ export const projects: Project[] = [
   {
     id: '1',
     title: 'E-Commerce-Website',
-    description: 'A comprehensive admin dashboard for managing e-commerce operations with real-time analytics.',
+    description: 'A fully functional e-commerce platform developed using HTML, CSS, JavaScript, PHP, and MySQL. The system allows users to browse products, add items to their cart, and manage orders seamlessly. It features user authentication, secure login, and a dynamic shopping cart with real-time updates. The admin panel enables product management (CRUD operations), inventory tracking, and order monitoring. Designed with responsiveness and usability in mind, the project demonstrates core full-stack development skills by integrating a front-end interface with a robust back-end and database.',
     image: 'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=600',
     category: 'web',
     technologies: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL'],
@@ -14,7 +14,7 @@ export const projects: Project[] = [
   {
     id: '2',
     title: 'Hostel Management System (HMS)',
-    description: 'Secure mobile banking application with biometric authentication and real-time transactions.',
+    description: 'A web-based Hostel Management System built with HTML, CSS, JavaScript, PHP, and MySQL to streamline hostel operations. The system enables students to register, request leaves, log complaints, and manage personal details, while administrators can track entries/exits, allocate rooms, and oversee maintenance requests. With secure authentication and a user-friendly dashboard, the project ensures efficient record-keeping and reduces manual paperwork by digitizing core hostel management tasks.',
     image: '/images/hms.png',
     category: 'mobile',
     technologies: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL'],
@@ -24,7 +24,7 @@ export const projects: Project[] = [
   {
     id: '3',
     title: 'ExploreLanka-TravelAdvisor',
-    description: 'Machine learning powered content generation platform with natural language processing.',
+    description: 'A collaborative project developed with my teammates, ExploreLanka-TravelAdvisor is a travel advisory website built using HTML, CSS, JavaScript, and React. The platform helps users discover tourist destinations in Sri Lanka with details such as attractions, accommodations, and travel tips. Designed with a responsive interface, the system allows users to search and explore locations seamlessly. My role focused on contributing to the front-end and ensuring smooth integration of project components through effective teamwork and version control.',
     image: '/images/tra.png',
     category: 'ai',
     technologies: ['HTML', 'CSS', 'JavaScript','React'],
@@ -34,7 +34,7 @@ export const projects: Project[] = [
   {
     id: '4',
     title: 'Circular-Progress-Bar',
-    description: 'Modern social networking platform with real-time messaging and content sharing.',
+    description: 'An interactive circular progress bar component built using HTML, CSS, and JavaScript. The project visually represents progress in a modern, animated circular design, making it ideal for dashboards, task trackers, or performance indicators. It demonstrates dynamic updates with smooth transitions and showcases skills in creating reusable UI components with responsive and visually appealing design.',
     image: '/images/circularProgress.png',
     category: 'web',
     technologies: ['HTML', 'CSS', 'JavaScript'],
