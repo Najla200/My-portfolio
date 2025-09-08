@@ -84,11 +84,12 @@ export const Hero: React.FC = () => {
 
         {/* Right Side - Profile Image */}
         <div className="md:w-1/2 flex justify-center">
-          <img
-            src="/images/profile.jpg"
-            alt="Najla Hamza"
-            className="w-80 h-96 object-cover rounded-lg shadow-2xl border-4 border-white dark:border-gray-700"
-          />
+         <img
+  src={`${import.meta.env.BASE_URL}images/profile.jpg`}
+  alt="Najla Hamza"
+  className="w-80 h-96 object-cover rounded-lg shadow-2xl border-4 border-white dark:border-gray-700"
+/>
+
         </div>
       </div>
 
