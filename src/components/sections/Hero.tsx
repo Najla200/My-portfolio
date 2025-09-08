@@ -85,7 +85,7 @@ export const Hero: React.FC = () => {
         {/* Right Side - Profile Image */}
         <div className="md:w-1/2 flex justify-center">
           <img
-            src="https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=600"
+            src="/images/profile.jpg"
             alt="Najla Hamza"
             className="w-80 h-96 object-cover rounded-lg shadow-2xl border-4 border-white dark:border-gray-700"
           />
