@@ -1,4 +1,4 @@
-import { Project, Service, Testimonial, Skill } from '../types';
+import { Project, Skill } from '../types';
 
 export const projects: Project[] = [
   {
@@ -15,7 +15,7 @@ export const projects: Project[] = [
     id: '2',
     title: 'Hostel Management System (HMS)',
     description: 'Secure mobile banking application with biometric authentication and real-time transactions.',
-    image: 'https://images.pexels.com/photos/4386321/pexels-photo-4386321.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: '/images/hms.png',
     category: 'mobile',
     technologies: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL'],
     liveUrl: 'https://example.com',
@@ -25,7 +25,7 @@ export const projects: Project[] = [
     id: '3',
     title: 'ExploreLanka-TravelAdvisor',
     description: 'Machine learning powered content generation platform with natural language processing.',
-    image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: '/images/tra.png',
     category: 'ai',
     technologies: ['HTML', 'CSS', 'JavaScript','React'],
     liveUrl: 'https://example.com',
